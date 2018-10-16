@@ -128,28 +128,8 @@ local function main()
 
     local hero2 = test.helper:dummy('小矮人',10000, 1);
     hero2:set_level(4);
-    -- local hero_data = hero.hero_list['小矮人'].data
-	-- ac.player[1]:create_unit(hero_data.id,ac.point(0,0,0))
-
-    -- local hero = test.helper:dummy('丹特丽安',10000, 1);
-	-- --hero:add_restriction '阿卡林'
-	-- --local hero = test.helper:dummy('小矮人',10000, 2);
-	-- --hero:set_high(10000)
-
-	-- --test.helper:timer()
-	-- local j_it = jass.CreateItem(base.string2id 'IT10', 0, 0)
-
-	-- print(hero.handle)
-	-- print(j_it)
-	
-	-- hero:event '单位-发布指令' (function(_, hero, order, target)
-	-- 	if order == 'smart' and target ~= nil then 
-	-- 	   jass.UnitAddItem(hero.handle, target)
-	-- 	end
-	-- end	)
-
-	-- --dbg.handle_ref(j_it)
-	-- jass.UnitAddItem(hero.handle, j_it)
+    
+    
 
 	print('读取lua 定义lni数据：',ac.lni.unit['萌物A'])
 	print('读取lua 定义lni数据：',ac.lni.unit['火元素'])
